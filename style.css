@@ -13,19 +13,128 @@ body {
 .header {
   background-color: #1f2937;
   color: white;
+  padding: 20px 140px;
 }
-
-/* hero css */
-.hero h1 {
-  font-size: 48px;
-  color: #f9faf8;
-  font-weight: 900;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
 }
 .logo {
   font-size: 24px;
   color: #f9faf8;
 }
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+/* hero css */
+.hero {
+  margin-bottom: 64px;
+  display: flex;
+  height: 100vh;
+}
+.hero-image {
+  width: 600px;
+  height: 300px;
+}
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
 .text-color {
   font-size: 18px;
   color: #e5e7eb;
+}
+.btn {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  font-weight: bold;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+/* feature */
+.feature {
+  padding: 20px 140px;
+}
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+}
+
+/* testimonial*/
+.testimonial {
+  background-color: #e5e7eb;
+  margin: 100px 0;
+}
+.testimonial p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300px;
+  padding: 100px 140px;
+}
+span {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* call-to-action */
+.call-to-action {
+  padding: 20px 140px;
+}
+.call-action {
+  background-color: #3882f6;
+  color: white;
+  margin: 40px 70px;
+  border: none;
+  border-radius: 8px;
+  padding: 35px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.call-to-action button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  color: white;
+}
+.call-para {
+  font-weight: bold;
+  font-size: 32px;
+}
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
